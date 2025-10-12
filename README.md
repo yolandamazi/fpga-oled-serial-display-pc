@@ -1,4 +1,4 @@
-<h1 align="center">🔌FPGA Modeling: Writing to OLED Display via Serial Port of a PC</h1>
+<h1 align="center">🔌FPGA: Writing to OLED Display via Serial Port of a PC</h1>
 
 ![VHDL](https://img.shields.io/badge/VHDL-4B0082?style=for-the-badge&logoColor=white)
 ![Xilinx Vivado](https://img.shields.io/badge/Xilinx_Vivado-EE2E24?style=for-the-badge&logo=xilinx&logoColor=white)
