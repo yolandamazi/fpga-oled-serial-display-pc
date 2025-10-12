@@ -76,7 +76,7 @@ begin  -- sim
     variable dato_1 : std_logic_vector(31 downto 0);
   begin  -- process
     wait for 333 ns;
-    dato_1 := x"0b5087c1";               --completar : dato que simulamos que ser· enviado
+    dato_1 := x"0b5087c1";               --completar : dato que simulamos que ser√° enviado
     dato_vis <= dato_1;
     enviar_dato(dato_1);
 
