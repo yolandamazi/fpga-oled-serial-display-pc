@@ -1,1 +1,1 @@
-# FPGA Modeling for Writing to an OLED Display via the Serial Port of a PC
+# FPGA Modeling: Writing to OLED Display via Serial Port of a PC
