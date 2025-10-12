@@ -14,7 +14,7 @@ Key highlights:
 ---
 
 ### 🧩 Project Structure
-- `finalDelivery/`: Contains the final VHDL implementation and configuration files for the Nexys4 DDR FPGA.
+- `finalDelivery/`: Contains the final VHDL implementation and configuration files for the Nexys4 DDR FPGA were the other 3 parts must me included to work.
 - `part1/`: Includes initial VHDL modules and simulation files for the project.
 - `part2/`: Contains intermediate VHDL modules and simulation files for the project.
 - `part3/`: Includes additional VHDL modules and simulation files for the project.
