@@ -46,7 +46,7 @@ begin
                 MUESTRAS <= (others => '0'); -- RST implica poner todo a 0
             elsif CLK'event and CLK = '1' then
                  if Q_PRESCALER = '1' then 
-                    MUESTRAS <= MUESTRAS(14 downto 0) & RX; --RX será 0 cuando se inicie la transmisión
+                    MUESTRAS <= MUESTRAS(14 downto 0) & RX; --RX serÃ¡ 0 cuando se inicie la transmisiÃ³n
                  end if;
             end if;    
     end process;
