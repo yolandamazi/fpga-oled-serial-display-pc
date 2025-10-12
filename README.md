@@ -3,7 +3,13 @@
 ![VHDL](https://img.shields.io/badge/VHDL-4B0082?style=for-the-badge&logoColor=white)
 ![Xilinx Vivado](https://img.shields.io/badge/Xilinx_Vivado-EE2E24?style=for-the-badge&logo=xilinx&logoColor=white)
 
-A simulation of airport operations developed in Java, modeling and visualizing the evolution of an airport over time. This project was developed as part of an academic assignment and focuses on the dynamics of arrivals, departures, and airport resource management.
+This project implements a system in VHDL for a Nexys4 DDR FPGA that receives ASCII characters from a PC via RS232 serial communication and displays them on a OLED display. The hexadecimal code of each character is simultaneously shown on the onboard seven-segment displays.
+
+Key highlights:
+- Full FPGA design flow: modeling, simulation, synthesis, implementation, and programming.
+- Handles clock synchronization with a 100 MHz system clock.
+- Implements sequential logic blocks and FSMs for reliable data handling.
+- Demonstrates practical use of peripherals and serial communication in FPGA systems.
 
 ---
 
