@@ -35,7 +35,7 @@ architecture rtl of spi_controller is
     signal FC : std_logic; -- Salida del prescaler que equivale al CE del contador
     -- Auxiliar del SCLK
     signal SCLK_AUX : std_logic;
-    -- BUSY seÒal para indicar que hay dato
+    -- BUSY se√±al para indicar que hay dato
     signal BUSY : std_logic;
     -- Auxiliar de END_SPI
     signal END_SPI_AUX : std_logic;
@@ -47,7 +47,7 @@ begin
                 DATA_SPI_REG <= (others => '0'); -- RST implica poner todo a 0
             elsif CLK'event and CLK = '0' then 
                 if DATA_SPI_OK = '1' then
-                    -- Entran 8 bits al registro y el de m·s peso a DC
+                    -- Entran 8 bits al registro y el de m√°s peso a DC
                     DATA_SPI_REG <= DATA_SPI(7 downto 0);
                     D_C_REG <= DATA_SPI(8);  
                 end if;  
